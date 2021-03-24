@@ -1,4 +1,4 @@
-﻿using Car.Models;
+﻿using Messaging.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Car.Controllers
+namespace Messaging.Controllers
 {
     public class HomeController : Controller
     {

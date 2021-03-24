@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Car
+namespace Welcome
 {
     public class Startup
     {
@@ -46,7 +46,7 @@ namespace Car
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Car}/{action=Index}/{id?}");
+                    pattern: "{controller=Welcome}/{action=Index}/{id?}");
             });
         }
     }
